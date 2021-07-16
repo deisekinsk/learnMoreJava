@@ -8,6 +8,7 @@ package pratice2;
 
 import java.util.Scanner;
 
+
 public class swapNumbers {
     //class
     public static void main (String [] args){
