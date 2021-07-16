@@ -27,7 +27,7 @@ public class conditions {
         
         } else if (studentGrade <= 59 && studentGrade >= 40) {
         
-         System.out.println("Try again.");
+            System.out.println("Try again.");
        
         } else{
             System.out.println("You don't conclude in this time.");
