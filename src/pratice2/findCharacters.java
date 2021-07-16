@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package pratice2;
 
 /**
@@ -13,18 +8,25 @@ public class findCharacters {
     
 public static void main (String [ ] args){
     
+    
+    //char str2 = str.charAt(0);
     String str = "a$h4n1I";
-    char str2 = str.charAt(0);
     int letter=0, space=0, num=0, other=0;
     int len = str.length();
-    
-     if(!str.matches("[a-z]")){
-           System.out.println(letter++);
-        }  
-    
+    char[] ch = str.toCharArray();
 
+    for (int i=0; i<len; i++){
+        if(Character.isLowerCase(ch[i])){
+            letter++;
+        }else if (Character.isUpperCase(ch[i])){
+            other++;
+        } else if (Character.isDigit(ch[i])){
+            num++;
+        }
     }
-    
-        
-    
+   
+     System.out.println("Number of letters lower case: "+ letter + " \n"+ "Number of number: "+ num);
+     
+     
+    }    
 }
