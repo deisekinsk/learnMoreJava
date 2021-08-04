@@ -5,14 +5,15 @@ class Main {
 
   public static int FirstFactorial(int num) {
     // code goes here
-    int x = 1;
+   
+    int mult = 1;
 
-    for (int i = 1; i <= num ; i++){
+    for (int i = num; i > 1 ; i--){
 
-      x = num * i;
+      mult = mult * i;
     }
 
-    return num;
+    return mult;
   }
 
   public static void main (String[] args) {  
