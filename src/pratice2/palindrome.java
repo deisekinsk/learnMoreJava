@@ -1,4 +1,4 @@
-//ERRO OUTPUT!
+//ERRO OUTPUT! Study this sequence:https://www.baeldung.com/java-palindrome
 
 import java.util.*; 
 import java.io.*;
