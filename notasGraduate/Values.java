@@ -24,20 +24,24 @@ public class Values {
         double mf = (n1mp + n2mp);
         
      System.out.print("MF| "+ name + " = " + mf);
-     System.out.print(" | N1 = " + n1);
+     System.out.print(" ||| N1 = " + n1);
      System.out.println(" | N2 = " + n2);
     }
 
     public static  void main (String[] args){
 
         Values disciplinaA = new Values(9.8, 6.0,10.0,5.0, 8.0, "IHC");
-        Values disciplinaB = new Values(6.0, 9.0,9.0,0.0, 0.0, "Fundamentos P/ Computador");
+        Values disciplinaB = new Values(6.0, 9.0,9.0,9.0, 9.0, "Fundamentos P/ Computador");
+        Values disciplinaC = new Values(8.0, 7.0,6.0,10.0, 9.0, "Teorias do Sistemas da Info.");
+        Values disciplinaD = new Values(10.0, 9.0,1.0,10.0,8.0, "Matemática");
         
-        System.out.println("Universidade Anhembi Morumbi \nGraduação Análise e Desenvolvimento de Sistemas \nMÉDIA FINAL POR DISCIPLINA(AP >=6) \n");
-        
+        System.out.println("Universidade Anhembi Morumbi\nGraduação Análise e Desenvolvimento de Sistemas \nMÉDIA FINAL POR DISCIPLINA(AP >=6) \n");
+        System.out.println("- 1º Semestre: 02/2021 -");
         
         disciplinaA.printData();
         disciplinaB.printData();
+        disciplinaC.printData();
+        disciplinaD.printData();
     }
 
 }
