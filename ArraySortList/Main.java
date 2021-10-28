@@ -21,7 +21,7 @@ public class Main
         int reorganiza = 0;
         for(int i = 0; i < comprimento - 1; i++){
             for(int j = 0; j < comprimento - i - 1; j++){
-                if(arr[j] < arr[j + 1]){ //crescente/decrescente | compara
+                if(arr[j] > arr[j + 1]){ //crescente/decrescente | compara
                     reorganiza = arr[j]; //troca/swap
                     arr[j] = arr[j + 1];
                     arr[j + 1] = reorganiza;
