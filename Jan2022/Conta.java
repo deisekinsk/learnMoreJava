@@ -24,7 +24,7 @@ public class Conta{
         saldo = saldo - valor;
     }
     
-    public double verificaSaldo(){
+    public double extrato(){
         return saldo;
     }
     
